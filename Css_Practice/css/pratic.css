@@ -1,0 +1,53 @@
+/*Temel Html yapılarının Css ile beraber stillerinin değiştirilmesi*/
+body{
+    background-color: darkgrey;
+}
+h3{
+color: antiquewhite;
+}
+p{
+color: aqua;
+}
+li{
+color: rgb(208, 183, 152);
+}
+span{
+color: blue;
+}
+div{
+color: blueviolet;
+}
+/*1 den fazla aynı ad ile tanımlanmış yapıların 
+birbirlerinden ayrılması # önüne değiştirilmek istenen yapının tanımlanması ile yapılır
+*/
+h3#title {
+    color: aqua;
+}
+/*Birden Fazla yapıyı aynı anda stillendirmek için
+class yapısı kullanılabilir*/
+.title{
+    color: lavenderblush;
+}
+.text-bold{
+    font-weight: bold;
+}
+/*
+p.color-blue.text-bold#paragraf2
+bu yapı ıle beraberde bir yapıda tüm tanımlanan stil yapılarına ulaşılabilir
+*/
+/*EVRENSEL SEÇİCİ BU YAPI SAYESİNDE 
+TÜM STİLLERE ULAŞILABİLİR
+
+* {
+    color: aliceblue;
+}
+
+*/
+
+/*Bir yapı içerisndeki ilk yapı haricindekilere ulaşmak için
+
+div * {
+}
+ Bu yapı Div den sonra div içerisndeki yapıların stillerine erişmeyi ifade eder
+ */
+ 
